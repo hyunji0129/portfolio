@@ -180,9 +180,10 @@ img {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    background: antiquewhite;
 }
 
-.hero-blob {
+/* .hero-blob {
     position: absolute;
     top: 0;
     right: 0;
@@ -191,7 +192,7 @@ img {
     background: radial-gradient(ellipse at 80% 40%, var(--color-accent2) 0%, var(--color-accent3) 40%, rgba(255, 255, 255, 0) 72%);
     opacity: .45;
     pointer-events: none;
-}
+} */
 
 .hero-inner {
     position: relative;
@@ -203,9 +204,8 @@ img {
 }
 
 .hero-sub {
-    font-size: 15px;
+    font-size: 18px;
     color: var(--color-gray);
-    margin-bottom: 20px;
 }
 
 .hero-title {
@@ -220,7 +220,6 @@ img {
 .hero-desc {
     max-width: 520px;
     font-size: 15px;
-    font-weight: 300;
     color: var(--color-gray);
 }
 
@@ -266,12 +265,12 @@ img {
     font-size: 12px;
 }
 
-.about-img-placeholder svg {
+/* .about-img-placeholder svg {
     width: 36px;
     stroke: #ccc;
     fill: none;
     margin-bottom: 8px;
-}
+} */
 
 .about-name {
     font-family: var(--font-en);
