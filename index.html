@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sang-ah Yoon | Design & Education Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Barlow:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="nav">
+    <div class="nav-wrap">
+      <a href="#hero" class="nav-logo">SANG-AH'S LAB</a>
+      <nav class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navBtn" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-mobile-panel" id="mobileNav">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#project">Project</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <section id="hero">
+    <div class="hero-blob"></div>
+    <div class="hero-inner">
+      <p class="hero-sub">
+        디자인과 코드의 접점을 가르치고 설계하는 직업훈련교사,<br />
+        <strong>윤상아</strong>입니다.
+      </p>
+      <h1 class="hero-title">SANG-AH'S<br />DESIGN LAB</h1>
+      <p class="hero-desc">
+        사용자의 니즈를 분석하여 최적의 비주얼 솔루션을 제안하며,<br />
+        디자이너를 위한 효율적인 'Vibe Coding' 커리큘럼을 설계합니다.
+      </p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2 class="section-title fade-up">ABOUT ME</h2>
+      <div class="about-top fade-up">
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+            <svg viewBox="0 0 24 24" stroke-width="1.2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            PHOTO
+          </div>
+        </div>
+        <div class="about-text-wrap">
+          <h3 class="about-name">Sang-ah Yoon</h3>
+          <p class="about-bio">
+            안녕하세요! 디자인과 기술의 경계를 허무는 <strong>직업훈련교사 윤상아</strong>입니다.<br /><br />
+            포토샵부터 React에 이르기까지 폭넓은 멀티미디어 제작 과정을 지도해 왔습니다. 
+            단순한 툴 사용법을 넘어 브랜드 아이덴티티를 분석하고 구현하는 실무 중심 프로세스를 지향합니다.
+          </p>
+          <a href="#" target="_blank" class="about-more-link">자기소개 더보기 →</a>
+        </div>
+      </div>
+
+      <div class="about-meta fade-up">
+        <div>
+          <p class="meta-title">Experience</p>
+          <ul class="meta-list">
+            <li><span class="meta-year">2026.02–현재</span><span>SBS 아카데미 — 웹 메인강사</span></li>
+            <li><span class="meta-year">2023.01–2026.01</span><span>그린컴퓨터아카데미 — 직업훈련교사</span></li>
+          </ul>
+        </div>
+        <div>
+          <p class="meta-title">Education & Skills</p>
+          <ul class="meta-list">
+            <li><span class="meta-year">Skills</span><span>Photoshop, Illustrator, Figma, React</span></li>
+            <li><span class="meta-year">Lecture</span><span>Web Design & Multimedia Specialist</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-strip fade-up">
+        <div class="skill-ticker">
+          <div class="skill-icon"><div class="skill-icon-box si-figma">Fg</div><span>Figma</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-ps">Ps</div><span>Photoshop</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-ai">Ai</div><span>Illustrator</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-js">JS</div><span>JavaScript</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-scss">Sc</div><span>SCSS</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-figma">Fg</div><span>Figma</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-ps">Ps</div><span>Photoshop</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-ai">Ai</div><span>Illustrator</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-js">JS</div><span>JavaScript</span></div>
+          <div class="skill-icon"><div class="skill-icon-box si-scss">Sc</div><span>SCSS</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="wrap">
+      <h2 class="section-title fade-up">WORK</h2>
+      <div class="work-grid">
+        <a href="#" class="work-card fade-up">
+          <div class="work-thumb"><div class="work-ph">ADERERROR Brand Identity</div></div>
+          <div class="work-info">
+            <p class="work-title">아더에러 브랜드 사이트 분석</p>
+            <p class="work-tags"><strong>Concept |</strong> Brand Analysis · UIUX</p>
+          </div>
+        </a>
+        <a href="#" class="work-card fade-up">
+          <div class="work-thumb"><div class="work-ph">HiDAX Consulting</div></div>
+          <div class="work-info">
+            <p class="work-title">HiDAX 브랜드 디자인</p>
+            <p class="work-tags"><strong>Design |</strong> Golden Intersection · BI</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="wrap">
+      <p class="footer-copy">© 2026 Sang-ah Yoon</p>
+    </div>
+  </footer>
+
+  <button id="totop" aria-label="맨 위로">↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
