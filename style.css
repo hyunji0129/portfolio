@@ -397,10 +397,19 @@ img {
 ============================================= */
 .work-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
 }
-
+.work-card {
+    background: #fff;
+    padding: 20px;
+    transition: transform 0.2s box-sadow 0.2s;
+    border-radius: 8px;
+}
+.work-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 32px #2222223a ;
+}
 .work-card {
     display: block;
 }
