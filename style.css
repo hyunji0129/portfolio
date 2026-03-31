@@ -402,16 +402,21 @@ img {
 }
 .work-card {
     background: #fff;
-    padding: 20px;
+    display: block;
+    padding: 30px;
     transition: transform 0.2s box-sadow 0.2s;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .work-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 32px #2222223a ;
 }
-.work-card {
-    display: block;
+.work-card img{
+    transition: transform 0.4s ease;
+    object-fit: cover;
+}
+.work-card:hover img {
+    transform: scale(1.06);
 }
 
 .work-thumb {
