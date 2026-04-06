@@ -76,7 +76,7 @@ img {
     position: fixed;
     inset: 0 0 auto 0;
     height: var(--nav-h);
-    background: rgba(255, 255, 255, .93);
+    background: #bbbbbb60;
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: border-color .3s;
@@ -180,7 +180,7 @@ img {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    background: antiquewhite;
+    background: ;
 }
 
 /* .hero-blob {
