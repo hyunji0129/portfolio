@@ -180,7 +180,6 @@ img {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    background: ;
 }
 
 /* .hero-blob {
@@ -204,8 +203,9 @@ img {
 }
 
 .hero-sub {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--color-gray);
+    margin-bottom: 20px;
 }
 
 .hero-title {

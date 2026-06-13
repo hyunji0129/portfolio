@@ -76,7 +76,7 @@ img {
     position: fixed;
     inset: 0 0 auto 0;
     height: var(--nav-h);
-    background: rgba(255, 255, 255, .93);
+    background: #bbbbbb60;
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: border-color .3s;
@@ -184,13 +184,7 @@ img {
 
 .hero-blob {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 65%;
-    height: 100%;
-    background: radial-gradient(ellipse at 80% 40%, var(--color-accent2) 0%, var(--color-accent3) 40%, rgba(255, 255, 255, 0) 72%);
-    opacity: .45;
-    pointer-events: none;
+   
 }
 
 .hero-inner {
@@ -203,9 +197,9 @@ img {
 }
 
 .hero-sub {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--color-gray);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hero-title {
@@ -220,7 +214,6 @@ img {
 .hero-desc {
     max-width: 520px;
     font-size: 15px;
-    font-weight: 300;
     color: var(--color-gray);
 }
 
@@ -272,12 +265,22 @@ img {
     fill: none;
     margin-bottom: 8px;
 }
+/* 수정 */
+.adout-name-up{
+    font-size: 15px ;
+}
 
 .about-name {
     font-family: var(--font-en);
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
+}
+
+.about-date{
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .about-bio {
